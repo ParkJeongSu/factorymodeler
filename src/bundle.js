@@ -96,10 +96,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _component_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(12);
 /* harmony import */ var _component_SideBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13);
-/* harmony import */ var _component_Content__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(18);
-/* harmony import */ var _component_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(19);
-/* harmony import */ var _component_ErrorBoundary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(20);
-/* harmony import */ var _component_RightSideBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(21);
+/* harmony import */ var _component_Content__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(20);
+/* harmony import */ var _component_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(21);
+/* harmony import */ var _component_ErrorBoundary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(22);
+/* harmony import */ var _component_RightSideBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(23);
 
 
 
@@ -7952,9 +7952,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _SideBarLogo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
-/* harmony import */ var _SideBarUserPanel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(15);
-/* harmony import */ var _NavTreeView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(16);
-/* harmony import */ var _NavItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(17);
+/* harmony import */ var _SideBarUserPanel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(16);
+/* harmony import */ var _NavTreeView__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(18);
+/* harmony import */ var _NavItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(19);
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -8206,6 +8206,7 @@ function list_to_tree(list) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _dist_img_AdminLTELogo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -8293,6 +8294,7 @@ function _setPrototypeOf(o, p) {
 
 
 
+
 var SideBarLogo = /*#__PURE__*/function (_React$Component) {
   _inherits(SideBarLogo, _React$Component);
 
@@ -8309,7 +8311,7 @@ var SideBarLogo = /*#__PURE__*/function (_React$Component) {
         href: "index3.html",
         className: "brand-link"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../dist/img/AdminLTELogo.png",
+        src: _dist_img_AdminLTELogo_png__WEBPACK_IMPORTED_MODULE_1__["default"],
         alt: "AdminLTE Logo",
         className: "brand-image img-circle elevation-3",
         style: {
@@ -8333,8 +8335,17 @@ var SideBarLogo = /*#__PURE__*/function (_React$Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "28f7e31d41f353b3aaff1236c7108479.png");
+
+/***/ }),
+/* 16 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _dist_img_user2_160x160_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(17);
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -8422,6 +8433,7 @@ function _setPrototypeOf(o, p) {
 
 
 
+
 var SideBarUserPanel = /*#__PURE__*/function (_React$Component) {
   _inherits(SideBarUserPanel, _React$Component);
 
@@ -8439,7 +8451,7 @@ var SideBarUserPanel = /*#__PURE__*/function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "image"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../dist/img/user2-160x160.jpg",
+        src: _dist_img_user2_160x160_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
         className: "img-circle elevation-2",
         alt: "User Image"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -8458,14 +8470,22 @@ var SideBarUserPanel = /*#__PURE__*/function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (SideBarUserPanel);
 
 /***/ }),
-/* 16 */
+/* 17 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "eafc49f5f1b4c3e457da91d2db7fea73.jpg");
+
+/***/ }),
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _NavItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(17);
+/* harmony import */ var _NavItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
 function _typeof(obj) {
   "@babel/helpers - typeof";
 
@@ -8610,7 +8630,7 @@ var NavTreeView = /*#__PURE__*/function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (NavTreeView);
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8734,7 +8754,7 @@ var NavItem = /*#__PURE__*/function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (NavItem);
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8883,7 +8903,7 @@ var Content = /*#__PURE__*/function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Content);
 
 /***/ }),
-/* 19 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9006,7 +9026,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
-/* 20 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9149,7 +9169,7 @@ var ErrorBoundary = /*#__PURE__*/function (_React$Component) {
 /* harmony default export */ __webpack_exports__["default"] = (ErrorBoundary);
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
